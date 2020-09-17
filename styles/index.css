@@ -1,0 +1,145 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+/* * {
+    font-family: Arial;
+    border: 1px solid red;
+} */
+
+html {
+    font-size: 62.5%;
+}
+
+body header div nav {
+    display: flex;
+    margin: 1.5rem;
+}
+
+body header div nav a {
+    font-weight: bold;
+    display: block;
+    margin-left: 1rem;
+    color: black;
+    font-size: 2rem;
+    font-family: Raleway;
+}
+
+body header div nav a:hover {
+    color: blue;
+}
+
+#header-container {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+h1, h2 {
+    font-family: "Raleway";
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+header {
+    height: 12rem;
+}
+
+#just-below-header p {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    display: block;
+}
+
+#just-below-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 8rem;
+    background: rgb(255,140,29);
+}
+
+#paragraphs {
+    margin-top: 1.5rem;
+    font-family: "Raleway";
+}
+
+h2 {
+    font-size: 8.6rem;
+    font-weight: bold;
+}
+
+#body {
+    height: 65rem;
+    border-bottom: 1rem solid #BDBDBD;
+}
+
+#image-background {
+    height: 55rem;
+    background-image: url("../img/background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 -75rem;
+    border-top: 1px solid  rgb(255,140,29);;
+}
+
+#image-background h2 {
+    margin: 3rem 0 1.5rem 1.5rem;
+}
+
+#image-background p {
+    display: block;
+    width: 35rem;
+    font-size: 1.8rem;
+    margin-left: 1.5rem;
+    line-height: 2.5rem;
+    font-family: Open Sans;
+}
+
+#for-clients-button {
+    background: #FF9233;
+}
+
+#for-instructors-button {
+    background: white;
+}
+
+footer button {
+    width: 277px;
+    height: 73px;
+    border-radius: 5px;
+    border: 1px solid #1B1A1A; 
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 2.5rem 0rem 2.5rem 2.5rem;
+}
+
+footer button:hover {
+    cursor: pointer;
+    background: black !important;
+    color: white;
+}
