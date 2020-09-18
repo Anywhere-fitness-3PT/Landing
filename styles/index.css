@@ -92,6 +92,14 @@ h2 {
     font-weight: bold;
 }
 
+body section div h2 a {
+    color: black;
+}
+
+body section div h2 a:hover {
+    color: white;
+}
+
 #body {
     height: 65rem;
     border-bottom: 1rem solid #BDBDBD;
@@ -102,7 +110,7 @@ h2 {
     background-image: url("../img/background.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: 0 -75rem;
+    background-position: 0 -30rem;
     border-top: 1px solid  rgb(255,140,29);;
 }
 
@@ -142,4 +150,59 @@ footer button:hover {
     cursor: pointer;
     background: black !important;
     color: white;
+}
+
+@media (max-width: 865px) {
+    #header-container {
+        flex-direction: column;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    body header div nav {
+        margin: 0 auto;
+    }
+
+    #body {
+        height: 60rem;
+    }
+}
+
+@media (max-width: 700px) {
+    body section div h2, body section div p {
+        text-align: center;
+    }
+
+    body section div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 630px) {
+    #bottom-buttons {
+        display:flex;
+        flex-direction: column;
+    }
+
+    footer button {
+        margin: 1.5rem auto;
+    }
+}
+
+@media (max-width: 555px){
+    #body {
+        height: 45rem;
+    }
+
+    #image-background {
+        height: 40rem;
+    }
+
+    header {
+        height: 18rem;
+    }
 }
