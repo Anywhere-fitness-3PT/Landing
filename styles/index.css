@@ -87,6 +87,11 @@ header {
     font-family: "Raleway";
 }
 
+#paragraph-about {
+    margin-top: 2.5rem;
+    font-family: "Raleway";
+}
+
 h2 {
     font-size: 8.6rem;
     font-weight: bold;
@@ -110,7 +115,7 @@ body section div h2 a:hover {
     background-image: url("../img/background.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: 0 -30rem;
+    background-position: 0 25%;
     border-top: 1px solid  rgb(255,140,29);;
 }
 
@@ -152,7 +157,41 @@ footer button:hover {
     color: white;
 }
 
-@media (max-width: 865px) {
+#here {
+    color: blue;
+}
+
+#devs {
+    font-family: Raleway;
+    margin: 2rem;
+}
+
+.developer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.5rem;
+}
+
+.dev-images {
+    height: 25rem;
+    margin: 2rem;
+    border: 2px solid black;
+}
+
+.separate-img {
+    width: 75%;
+}
+
+h3 {
+    font-size: 5.6rem;
+    font-weight: bold;
+}
+
+.separate-img p {
+    font-size: 2.4rem;
+}
+
+@media (max-width: 930px) {
     #header-container {
         flex-direction: column;
     }
@@ -168,6 +207,23 @@ footer button:hover {
     #body {
         height: 60rem;
     }
+}
+
+@media (max-width: 785px) {
+    .developer {
+        display: block;
+    }
+
+    .dev-images, .separate-img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .separate-img h3, .separate-img p {
+        text-justify: center;
+        text-align: center;
+    }
+
 }
 
 @media (max-width: 700px) {
@@ -193,7 +249,7 @@ footer button:hover {
     }
 }
 
-@media (max-width: 555px){
+@media (max-width: 549px){
     #body {
         height: 45rem;
     }
@@ -203,6 +259,10 @@ footer button:hover {
     }
 
     header {
-        height: 18rem;
+        height: 20rem;
+    }
+
+    body header div nav {
+        margin: 1rem auto;
     }
 }
