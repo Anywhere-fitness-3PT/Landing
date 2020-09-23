@@ -313,4 +313,8 @@ h3 {
     #image-background p {
         width: 90%;
     }
+
+    .separate-img p {
+        font-size: 1.4rem;
+    }
 }
