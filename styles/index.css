@@ -224,6 +224,10 @@ h3 {
         text-align: center;
     }
 
+    .separate-img {
+        width: 95%;
+    }
+
 }
 
 @media (max-width: 700px) {
@@ -236,6 +240,27 @@ h3 {
         flex-direction: column;
         align-items: center;
     }
+
+    h1, h2, h3, .about-h3 {
+        font-size: 5.6rem;
+    }
+
+    #body {
+        height: 45rem;
+    }
+
+    #image-background {
+        height:40rem;
+    }
+
+    .separate-img p {
+        font-size: 1.8rem;
+    }
+
+    .about-h3 {
+        font-size: 3.6rem;
+    }
+        
 }
 
 @media (max-width: 630px) {
@@ -251,18 +276,45 @@ h3 {
 
 @media (max-width: 549px){
     #body {
-        height: 45rem;
+        height: 35rem;
     }
 
     #image-background {
-        height: 40rem;
+        height: 30rem;
     }
 
-    header {
-        height: 20rem;
+    footer button {
+        width: 207.75px;
+        height: 54.75px;
+        font-size: 22.5px;
+        font-weight: bold;
     }
 
     body header div nav {
         margin: 1rem auto;
+    }
+}
+
+@media (max-width: 515px) {
+    h1, h2, h3, .about-h3 {
+        font-size: 3.6rem;
+    }
+
+    body header div nav a {
+        font-size: 1.7rem;
+    }
+
+    header {
+        height: 9rem;
+    }
+}
+
+@media (max-width: 400px){
+    #image-background p {
+        width: 90%;
+    }
+
+    .separate-img p {
+        font-size: 1.4rem;
     }
 }
